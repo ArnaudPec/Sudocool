@@ -97,7 +97,8 @@ void verif_fini(int grille[9][9], int *fini)
 int verif_impossible(int grille[9][9]) // Vérifie si la résolution de la grille est possible (pas de cases où il n'y a pas de possibilités)
 {
     int i, j, n, impossible = 0, coup_possible;
-    nb grille_poss[9][9] = {0};
+//    nb grille_poss[9][9] = {0};
+    nb grille_poss[9][9] ;
 
     verif_possibilites(grille, grille_poss);
 
@@ -141,5 +142,3 @@ int verif_valide(int grille[9][9])
 
     return valide;
 }
-
-

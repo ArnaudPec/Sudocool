@@ -58,7 +58,7 @@ int main (int argc, char *argv[])
 
     int i, j;
 
-    int grille[9][9] = {0}; //on initialise la grille, en la remplissant de 0
+    //int grille[9][9] = {0}; //on initialise la grille, en la remplissant de 0
 
      gtk_init(&argc, &argv); // on initialise gtk
 
